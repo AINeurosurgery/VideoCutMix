@@ -1,0 +1,26 @@
+datasets:
+  proposed_nets_videomae:
+    class_weights:
+    - 0.1776
+    - 0.2023
+    - 1.7741
+    - 1.0
+    cutoff_epoch: 15
+    dataset_name: NETS
+    enable_run: true
+    epoch_level_augmentation: true
+    epoch_variational_gt: true
+    input_dim: 1408
+    min_patience: 5
+    num_classes: 4
+    num_epochs: 25
+    refiner_epochs: 25
+    restore_path:
+      mstcn:
+        1: model/mstcn/base.model
+    restore_weights: true
+    specification: 16-4RGB
+    split_strategy: 3
+    splits: 1
+    total_patience: 5
+    use_probability_vector: true
