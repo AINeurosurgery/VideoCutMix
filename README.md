@@ -2,7 +2,7 @@
 
 This is the Official Implementation of the Paper: "VideoCutMix: Temporal Segmentation of Surgical Videos in Scarce Data Scenarios", accepted for publication in MICCAI 2024. 
 
-[](extras/teaser.pdf)
+![Teaser](extras/teaser.png)
 
 # Data Preparation
 
