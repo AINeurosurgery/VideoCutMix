@@ -36,12 +36,21 @@ A results.json file will be created at the end of the process, which will consis
 If you find this repository useful, please use the following BibTeX entry for citation.
 
 @InProceedings{Dha_VideoCutMix_MICCAI2024,
+
         author = { Dhanakshirur, Rohan Raju and Tyagi, Mrinal and Baby, Britty and Suri, Ashish and Kalra, Prem and Arora, Chetan},
+
         title = {VideoCutMix: Temporal Segmentation of Surgical Videos in Scarce Data Scenarios},
+        
         booktitle = {proceedings of Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+        
         year = {2024},
+        
         publisher = {Springer Nature Switzerland},
+        
         volume = {LNCS 15006},
+        
         month = {October},
+        
         page = {725--735}
+
 }
